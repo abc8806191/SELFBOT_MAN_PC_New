@@ -1895,7 +1895,7 @@ def bot(op):
                 items = items + (_images_get_all_items(raw_html))
                 path = random.choice(items)
                 print ("path")
-                    ka.sendImageWithURL(msg.to,path)
+                 ka.sendImageWithURL(msg.to,path)
                 except:
                     pass
 #==============================================================================#
