@@ -11,27 +11,27 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,string,ast,os,subprocess,six,ast,pytz,requests,tempfile
 
 ka = LINETCR.LINE()
-ka.login(token='MAN')
+ka.login(token='ErYWjY9YV79Z38JKxKo3.Zyqdf0szEvhn7GgnUvgUOW.UjX05iErsgigbASwAmC2c+XpFJ6lR5Tz3fa/+/Zf6bk=')
 ka.loginResult()
 
 kb = LINETCR.LINE()
-kb.login(token='MAN')
+kb.login(token='EriNWY115rLz2hdl48v6.AtUxbv5bm36lwyvJZPmvLG.oLcFDSxUslenk2Rz2XQg1E/dUM90SsPowtl3mIsCh+w=')
 kb.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token='MAN')
+kc.login(token='ErnJswlRxEo8wSuOebF3.MH2J3w8lfsAoWo4z8qxeuW.pmKfHC0OdXbZY5pUV/Ruyu1NohldbTi/nfmPsBzMvds=')
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token='MAN')
+kd.login(token='ErkFmsynownacQGE3XDf.pMI0m8HrhHEeXjG/H6SepW.yLA1mS6JHgxa7qZzjVQ5JbbB3UFJPR0b4nxCbMc6qLY=')
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token='MAN')
+ke.login(token='Er8h61l1jTFFUVf3e13a.NSj60VJy3+WTBIuVnvXHwG.wkwr4TT7v1FWJv4KfHc/Q2yDXxx7deHxXvq65XHjCJg=')
 ke.loginResult()
 
 backup = LINETCR.LINE()
-backup.login(token='man')
+backup.login(token='EN99M3oJ0nh1wVwXYuD7.TVNvnXpfHP8nEoCF6/e4nW.9s3kxlgfX1s31BHd5LluZfheC+geq4+8gnsI8Qa6OyE=')
 backup.loginResult()
 
 print "Login SELFBOT_MAN_PC"
@@ -159,8 +159,8 @@ Cmid = kd.getProfile().mid
 Dmid = ke.getProfile().mid
 Emid = backup.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-owner=["SELFBOT_MAN_PC"]
-admin=["ud24af63fd62d14c3bf8f719df80c3745"]
+owner=["ub6f9d53713c5869f0d78e71febe13837"]
+admin=["ub6f9d53713c5869f0d78e71febe13837"]
 
 contact = ka.getProfile()
 backup1 = ka.getProfile()
@@ -208,11 +208,11 @@ wait = {
     "Timeline":True,
     "autoAdd":False,
     "lang":"JP",
-    "comment1":"👍Auto Like By SELFBOT_MAN_PC",
-    "comment2":"👍Auto Like By SELFBOT_MAN_PC",
-    "comment3":"👍Auto Like By SELFBOT_MAN_PC",
-    "comment4":"👍Auto Like By SELFBOT_MAN_PC",
-    "comment5":"👍Auto Like By SELFBOT_MAN_PC \n(รับทำเชลบอทกันรัน) บอทป้องกัน บอทแท๊ก",
+    "comment1":"👍Auto Like By 𝓕𝓪𝓷𝓽𝓪𝓼𝔂𝓢𝓽𝓾𝓭𝓲𝓸",
+    "comment2":"👍Auto Like By 𝓕𝓪𝓷𝓽𝓪𝓼𝔂𝓢𝓽𝓾𝓭𝓲𝓸",
+    "comment3":"👍Auto Like By 𝓕𝓪𝓷𝓽𝓪𝓼𝔂𝓢𝓽𝓾𝓭𝓲𝓸",
+    "comment4":"👍Auto Like By 𝓕𝓪𝓷𝓽𝓪𝓼𝔂𝓢𝓽𝓾𝓭𝓲𝓸",
+    "comment5":"👍Auto Like By 𝓕𝓪𝓷𝓽𝓪𝓼𝔂𝓢𝓽𝓾𝓭𝓲𝓸",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
