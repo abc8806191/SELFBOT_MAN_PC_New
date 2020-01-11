@@ -1616,7 +1616,7 @@ def bot(op):
                         try:
                           ka.sendMessage(msg)
                         except Exception as error:
-                              print error
+                              print (error)
                         pass
                     else:
                         ka.sendText(msg.to, "Lurking has not been set.")
@@ -1657,14 +1657,14 @@ def bot(op):
                 G = ka.getGroup(msg.to)
                 G.preventJoinByTicket = True
                 ka.updateGroup(G)
-                print "Semua Sudah Lengkap"
+                print ("Semua Sudah Lengkap")
 #==============================================================================#
             elif msg.text in ["timeline"]:
 		try:
                     url = ka.activity(limit=10)
 		    ka.sendText(msg.to,url['result']['posts'][0]['postInfo']['postId'])
 		except Exception as E:
-		    print E
+		    print (E)
 #==============================================================================#
             elif msg.text in ["Keluar","Get out","Out"]:
               if msg.from_ in owner:
