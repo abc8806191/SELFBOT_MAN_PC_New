@@ -1749,19 +1749,6 @@ def bot(op):
     	          ka.sendText(msg.to, "Kami Siap Restart\nWaktu Restart Sekitar 10 Detik ")
               else:
                 ka.sendText(msg.to,"This Command Only For Owner")
- #==============================================================================#
-	    elif msg.text in ["musik"]:
-					songname = msg.text.replace("/musik ","")
-					params = {"songname": songname}
-					r = requests.get('http://ide.fdlrcn.com/workspace/yumi-apis/joox?' + urllib.urlencode(params))
-					data = r.text
-					data = json.loads(data)
-					for song in data:
-						abc = song[3].replace('https://','http://')
-						ka.sendText(msg.to, "Title : " + song[0] + "\nLength : " + song[1] + "\nLink download : " + song[4])
-						ka.sendText(msg.to, "Lagu " + song[0] + "\nSedang Di Prosses... Tunggu Sebentar ^_^ ")
-						ka.sendAudioWithURL(msg.to,abc)
-						ka.sendText(msg.to, "Selamat Mendengarkan Lagu " + song[0])
 #==============================================================================#
             elif '/lirik ' in msg.text.lower():
                 try:
