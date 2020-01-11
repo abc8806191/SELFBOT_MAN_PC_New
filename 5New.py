@@ -533,7 +533,7 @@ def bot(op):
               else:
                 kb.rejectGroupInvitation(op.param1)
             else:
-              print "autoJoin is Off"
+              print ("autoJoin is Off")
                 
           if Bmid in op.param3:
             if wait["autoJoin"] == True:
@@ -542,7 +542,7 @@ def bot(op):
               else:
                 kc.rejectGroupInvitation(op.param1)
             else:
-              print "autoJoin is Off"
+              print ("autoJoin is Off")
                 
           if Cmid in op.param3:
             if wait["autoJoin"] == True:
@@ -551,7 +551,7 @@ def bot(op):
               else:
                 kd.rejectGroupInvitation(op.param1)
             else:
-              print "autoJoin is Off"
+              print ("autoJoin is Off")
                 
           if Dmid in op.param3:
             if wait["autoJoin"] == True:
