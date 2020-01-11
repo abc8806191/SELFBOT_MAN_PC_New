@@ -1477,7 +1477,7 @@ def bot(op):
                   try:
                       ka.sendMessage(msg)
                   except Exception as error:
-                      print error
+                      print (error)
 #==============================================================================#
             elif msg.text == "Lurking on":
               if msg.from_ in owner:
@@ -2028,11 +2028,11 @@ def bot(op):
                 pass           
 #==============================================================================#                                           
         if op.type == 59:
-            print op
+            print (op)
 
 
     except Exception as error:
-        print error
+        print (error)
 
 
 while True:
