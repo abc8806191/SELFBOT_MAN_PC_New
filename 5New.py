@@ -1186,7 +1186,7 @@ def bot(op):
             elif msg.text in ["List group"]:
                     gid = ka.getGroupIdsJoined()
                     h = ""
-		    jml = 0
+		        jml = 0
                     for i in gid:
 		        gn = ka.getGroup(i).name
                         h += "╠ [ %s ]\n" % (gn)
