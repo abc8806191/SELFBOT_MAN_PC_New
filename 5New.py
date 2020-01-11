@@ -1747,7 +1747,6 @@ def bot(op):
             elif msg.text in ["Bot restart"]:
               if msg.from_ in owner:
     	          ka.sendText(msg.to, "Kami Siap Restart\nWaktu Restart Sekitar 10 Detik ")
-                  restart_program()
               else:
                 ka.sendText(msg.to,"This Command Only For Owner")
  #==============================================================================#
