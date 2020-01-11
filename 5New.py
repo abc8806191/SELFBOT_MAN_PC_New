@@ -1080,7 +1080,7 @@ def bot(op):
 #==============================================================================#
             elif "Owner add @" in msg.text:
               if msg.from_ in owner:
-                print "[Command]Owner add executing"
+                print ("[Command]Owner add executing")
                 _name = msg.text.replace("Owner add @","")
                 _nametarget = _name.rstrip('  ')
                 gs = ka.getGroup(msg.to)
@@ -1102,14 +1102,14 @@ def bot(op):
                             ka.sendText(msg.to,"Owner Already Added Boss")
                         except:
                             pass
-                print "[Command]Owner add executed"
+                print ("[Command]Owner add executed")
               else:
                 ka.sendText(msg.to,"You Are Not My Boss !!!")
                 ka.sendText(msg.to,"Command Denied")
 #==============================================================================#
             elif "Admin remove @" in msg.text:
               if msg.from_ in owner:
-                print "[Command]Staff remove executing"
+                print ("[Command]Staff remove executing")
                 _name = msg.text.replace("Admin remove @","")
                 _nametarget = _name.rstrip('  ')
                 gs = ka.getGroup(msg.to)
@@ -1126,14 +1126,14 @@ def bot(op):
                             ka.sendText(msg.to,"Admin Deleted")
                         except:
                             pass
-                print "[Command]Admin remove executed"
+                print ("[Command]Admin remove executed")
               else:
                 ka.sendText(msg.to,"You Are Not My Boss !!!")
                 ka.sendText(msg.to,"Command Denied")
 #==============================================================================#
             elif "Owner remove @" in msg.text:
               if msg.from_ in owner:
-                print "[Command]Owner remove executing"
+                print ("[Command]Owner remove executing")
                 _name = msg.text.replace("Owner remove @","")
                 _nametarget = _name.rstrip('  ')
                 gs = ka.getGroup(msg.to)
@@ -1150,7 +1150,7 @@ def bot(op):
                             ka.sendText(msg.to,"Owner Deleted")
                         except:
                             pass
-                print "[Command]Owner remove executed"
+                print ("[Command]Owner remove executed")
               else:
                 ka.sendText(msg.to,"You Are Not My Boss !!!")
                 ka.sendText(msg.to,"Command Denied")
@@ -1164,7 +1164,7 @@ def bot(op):
                   for mi_d in admin:
                       mc += "[★]" + ka.getContact(mi_d).displayName + "\n"
                   ka.sendText(msg.to,mc)
-                  print "[Command]Stafflist executed"
+                  print ("[Command]Stafflist executed")
 #==============================================================================#
             elif msg.text in ["Ownerlist","ownerlist"]:
               if owner == []:
@@ -1175,7 +1175,7 @@ def bot(op):
                   for mi_d in owner:
                       mc += "[★]" + ka.getContact(mi_d).displayName + "\n"
                   ka.sendText(msg.to,mc)
-                  print "[Command]Ownerlist executed"
+                  print ("[Command]Ownerlist executed")
 #==============================================================================#
             elif msg.contentType == 16:
                 if wait["Timeline"] == True:
