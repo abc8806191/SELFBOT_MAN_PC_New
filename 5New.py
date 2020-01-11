@@ -1712,7 +1712,7 @@ def bot(op):
             elif "Fvck" in msg.text:
               if msg.from_ in owner:
                 if msg.toType == 2:
-                    print "ok"
+                    print ("ok")
                     _name = msg.text.replace("Fvck","")
                     gs = ka.getGroup(msg.to)
                     gs = kb.getGroup(msg.to)
