@@ -560,7 +560,7 @@ def bot(op):
               else:
                 ke.rejectGroupInvitation(op.param1)
             else:
-              print "autoJoin is Off"
+              print ("autoJoin is Off")
 #==============================================================================#
         if op.type == 13:
           if wait["Protectcancl"] == True:
