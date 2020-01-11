@@ -1661,7 +1661,6 @@ def bot(op):
 #==============================================================================#
             elif msg.text in ["timeline"]:
                     url = ka.activity(limit=10)
-		    ka.sendText(msg.to,url['result']['posts'][0]['postInfo']['postId'])
 		except Exception as E:
 		    print (E)
 #==============================================================================#
