@@ -625,7 +625,7 @@ def bot(op):
                                     "STKPKGID": "3",
                                     "STKVER": "100" }                
             ka.sendMessage(d)             
-            print "MEMBER JOIN TO GROUP"
+            print ("MEMBER JOIN TO GROUP")
 #==============================================================================#
         if op.type == 17: #Protect Join
           if wait["Protectjoin"] == True:
