@@ -1073,7 +1073,7 @@ def bot(op):
                             ka.sendText(msg.to,"Admin Already Added Boss")
                         except:
                             pass
-                print "[Command]Admin add executed"
+                print ("[Command]Admin add executed")
               else:
                 ka.sendText(msg.to,"You Are Not My Boss !!!")
                 ka.sendText(msg.to,"Command Denied")
