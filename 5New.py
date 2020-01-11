@@ -34,7 +34,6 @@ backup = LINETCR.LINE()
 backup.login(token='EN99M3oJ0nh1wVwXYuD7.TVNvnXpfHP8nEoCF6/e4nW.9s3kxlgfX1s31BHd5LluZfheC+geq4+8gnsI8Qa6OyE=')
 backup.loginResult()
 
-print "Login SELFBOT_MAN_PC"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
