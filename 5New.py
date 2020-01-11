@@ -1659,11 +1659,6 @@ def bot(op):
                 ka.updateGroup(G)
                 print ("Semua Sudah Lengkap")
 #==============================================================================#
-            elif msg.text in ["timeline"]:
-                    url = ka.activity(limit=10)
-		except Exception as E:
-		    print (E)
-#==============================================================================#
             elif msg.text in ["Keluar","Get out","Out"]:
               if msg.from_ in owner:
                 if msg.toType == 2:
