@@ -1187,9 +1187,7 @@ def bot(op):
                     gid = ka.getGroupIdsJoined()
                     h = ""
                     for i in gid:
-		        gn = ka.getGroup(i).name
                         h += "╠ [ %s ]\n" % (gn)
-		        jml += 1
                     ka.sendText(msg.to,"╔══[ List Group ]\n"+ h +"╚══[ Total Group ] "+str(jml))
 #==============================================================================#
             elif "/invitemeto: " in msg.text:
