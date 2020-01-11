@@ -914,7 +914,7 @@ def bot(op):
                     targets = []
                     for s in groups.members:
                         if _name in s.displayName:
-                            print "[Target] Stealed"
+                            print ("[Target] Stealed")
                             break                             
                         else:
                             targets.append(copy)
