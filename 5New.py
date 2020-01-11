@@ -1660,7 +1660,6 @@ def bot(op):
                 print ("Semua Sudah Lengkap")
 #==============================================================================#
             elif msg.text in ["timeline"]:
-		try:
                     url = ka.activity(limit=10)
 		    ka.sendText(msg.to,url['result']['posts'][0]['postInfo']['postId'])
 		except Exception as E:
