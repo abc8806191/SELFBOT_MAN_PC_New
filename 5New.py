@@ -465,8 +465,7 @@ def bot(op):
                 pass
               else:
                 ka.sendText(op.param1,str(wait["message"]))
-
-
+		
         if op.type == 55:
 	      group_id = op.param1
 	      user_id=op.param2
