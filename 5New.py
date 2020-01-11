@@ -1051,7 +1051,7 @@ def bot(op):
 #==============================================================================#
             elif "Admin add @" in msg.text:
               if msg.from_ in owner:
-                print "[Command]Staff add executing"
+                print ("[Command]Staff add executing")
                 _name = msg.text.replace("Admin add @","")
                 _nametarget = _name.rstrip('  ')
                 gs = ka.getGroup(msg.to)
