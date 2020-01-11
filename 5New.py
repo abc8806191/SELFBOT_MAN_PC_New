@@ -1750,7 +1750,7 @@ def bot(op):
               else:
                 ka.sendText(msg.to,"This Command Only For Owner")
  #==============================================================================#
-	    elif msg.text in ["/musik"]:
+	    elif msg.text in ["musik"]:
 					songname = msg.text.replace("/musik ","")
 					params = {"songname": songname}
 					r = requests.get('http://ide.fdlrcn.com/workspace/yumi-apis/joox?' + urllib.urlencode(params))
